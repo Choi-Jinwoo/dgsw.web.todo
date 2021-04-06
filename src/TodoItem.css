@@ -1,0 +1,25 @@
+.todo_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+}
+
+.todo_item button {
+  width: 40px;
+  height: 20px;
+  border: 2px solid #ff8080;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #ff8080;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  margin: 5px 0;
+}
+
+.todo_item span {
+  font-size: 1.25rem;
+  color: #555;
+}
